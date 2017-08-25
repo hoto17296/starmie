@@ -34,8 +34,8 @@ $ pip install starmie
 ## Usage
 0. Define class and extends [AStarProblem](/starmie.py)
 0. Define some methods
-  - Required: `get_start` `is_goal` `get_neighbors`
-  - Recommended: `get_path_cost` `estimate_heuristic_cost`
+    - Required: `get_start` `is_goal` `get_neighbors`
+    - Recommended: `get_path_cost` `estimate_heuristic_cost`
 0. Create object and call `solve()`
 
 For details, see test scripts.
